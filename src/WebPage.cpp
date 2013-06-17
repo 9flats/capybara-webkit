@@ -5,6 +5,8 @@
 #include "UnsupportedContentHandler.h"
 #include <QResource>
 #include <iostream>
+#include <QFileInfo>
+#include <QDir>
 
 WebPage::WebPage(QObject *parent) : QWebPage(parent) {
   setForwardUnsupportedContent(true);

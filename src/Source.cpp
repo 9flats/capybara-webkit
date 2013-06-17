@@ -1,5 +1,6 @@
 #include "Source.h"
 #include "WebPage.h"
+#include <QNetworkReply>
 
 Source::Source(WebPage *page, QStringList &arguments, QObject *parent) : Command(page, arguments, parent) {
 }
